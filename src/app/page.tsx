@@ -60,16 +60,16 @@ export default function Page() {
               delay={BLUR_FADE_DELAY * 6 + id * 0.05}
             >
               <ResumeCard
-                key={work.company}
-                logoUrl={work.logoUrl}
-                altText={work.company}
-                title={work.company}
-                subtitle={work.title}
-                href={work.href}
-                badges={work.badges}
-                period={`${work.start} - ${work.end ?? "Present"}`}
-                description={work.description}
-              />
+  key={work.company}
+  logoUrl={work.logoUrl}
+  altText={work.company}
+  title={work.company}
+  subtitle={work.title}
+  href={work.href}
+  badges={work.badges}
+  period={`${work.start} - ${work.end ?? "Present"}`}
+  description={<span>{work.description}</span>} // Misalnya, jika Anda ingin menggunakan elemen JSX
+/>
             </BlurFade>
           ))}
         </div>
