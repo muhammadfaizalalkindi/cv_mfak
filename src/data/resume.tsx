@@ -3,7 +3,7 @@ import { HomeIcon} from "lucide-react";
 
 export const DATA = {
   name: "Faizal",
-  initials: "MFA",
+  initials: "MFAK",
   url: "https://dillion.io",
   location: "Lampung Tengah, Lampung",
   locationLink: "https://maps.app.goo.gl/BiUyPgdvRQm2LD7r6",
@@ -24,7 +24,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-
+    ,
   ],
   contact: {
     email: "kindifaizal@students.unnes.ac.id",
