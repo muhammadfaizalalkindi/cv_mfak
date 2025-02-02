@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon} from "lucide-react";
 
 export const DATA = {
   name: "Faizal",
@@ -24,7 +24,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    ,
+
   ],
   contact: {
     email: "kindifaizal@students.unnes.ac.id",
@@ -147,7 +147,7 @@ export const DATA = {
     {
       title: "To-Do-List MVC",
       href: "",
-      dates: "November 2024 - December 2024",
+      dates: "November 2023 - December 2023",
       active: true,
       description:
         "In this Object-Oriented Programming final project, I developed a To-Do List information system application using the Java programming language with the concept of GUI (Graphical User Interface) and implementing MVC (Model View Controller) Design.",
@@ -187,7 +187,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "",
+      video: "https://cdn.llm.report/openai-demo.mp4",
     },
     {
       title: "Company Profile",
@@ -212,8 +212,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/web1.png",
-      video: "",
+      image: "",
+      video: "/openai-demo.mp4",
     },
   ],
   Organizations: [
